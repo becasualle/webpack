@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("I don't trust stairs because they're always up to something, and I don't trust lifts because they let you down.")})();
