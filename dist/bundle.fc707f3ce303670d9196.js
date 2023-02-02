@@ -2,6 +2,23 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/generateJoke.js":
+/*!*****************************!*\
+  !*** ./src/generateJoke.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var generateJoke = function generateJoke() {
+  return "I don't trust stairs because they're always up to something, and I don't trust lifts because they let you down.";
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (generateJoke);
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/main.scss":
 /*!***********************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/main.scss ***!
@@ -506,25 +523,6 @@ function styleTagTransform(css, styleElement) {
 
 module.exports = styleTagTransform;
 
-/***/ }),
-
-/***/ "./src/generateJoke.js":
-/*!*****************************!*\
-  !*** ./src/generateJoke.js ***!
-  \*****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-const generateJoke = () => {
-  return "I don't trust stairs because they're always up to something, and I don't trust lifts because they let you down.";
-};
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (generateJoke);
-
-
 /***/ })
 
 /******/ 	});
@@ -613,9 +611,8 @@ __webpack_require__.r(__webpack_exports__);
 
 console.log((0,_generateJoke__WEBPACK_IMPORTED_MODULE_0__["default"])());
 console.log(1);
-
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle.0ec71cafc6195fd35b63.js.map
+//# sourceMappingURL=bundle.fc707f3ce303670d9196.js.map
